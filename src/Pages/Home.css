@@ -1,0 +1,250 @@
+@keyframes growAvatar {
+    from {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.Primary{
+    animation: fadeIn 1.5s ease forwards;
+    opacity: 0;
+    color: #ffffff;
+    font-size: 5vh;
+}
+
+.Secondary{
+    animation: fadeIn 1.5s ease forwards;
+    opacity: 0;
+    color: #a4a6a8;
+    font-size: 3vh;
+    /* color : #4caf51; */
+    
+}
+
+.next-component{
+    margin-top: 15vh;
+}
+
+/* Existing styles */
+.avatar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh; /* Make the container fill the viewport height */
+    overflow: hidden;
+}
+
+.custom-avatar img {
+    object-fit: cover !important;
+    object-position: center -5% !important; 
+}
+
+/* New transition effect for smooth size change */
+.custom-avatar {
+    animation: growAvatar 1s ease forwards;
+    transition: width 0.2s ease, height 0.2s ease;
+}
+
+/* .title-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 5%;
+    background: black; 
+    color: #fff;
+    z-index: 100; 
+    text-align: center; 
+    border-bottom: 1px solid #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 0 2%; 
+    box-sizing: border-box;
+}
+
+.title-bar a {
+    display: inline-block;
+    background-color: #262626;
+    color: white;
+    text-align: center;
+    padding: 10px 20px; 
+    border: 1px solid white; 
+    border-radius: 25px;
+    text-decoration: none; 
+    line-height: normal; 
+    vertical-align: middle; 
+    transition: background-color 0.3s, border-color 0.3s, color 0.3s;
+    font-size: 1rem;
+    cursor: pointer; 
+}
+
+.title-bar a:hover {
+    background-color: white;
+    color: #262626;
+    border-color: #262626;
+} */
+
+.title-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #fac912; /* Background color */
+    color: white;
+    font-weight: bolder;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem; /* Responsive padding */
+    box-sizing: border-box;
+    border-bottom: 1px solid #ffffff;
+    
+}
+
+.title-bar div, .title-bar a {
+    display: flex;
+    align-items: center; /* Aligns the text and button vertically center */
+    justify-content: center; /* Center content horizontally for flex items */
+    padding: 0.5rem; /* Provide padding around the text and button */
+}
+
+.title-bar a {
+    background-color: #262626;
+    border: 1px solid white; /* White border */
+    border-radius: 25px; /* Fully rounded corners */
+    text-decoration: none; /* Removes the underline from the anchor tag */
+    color: white; /* Font color */
+    padding: 0.5rem 1rem; /* Padding inside the button */
+    margin-left: 0.5rem; /* Space between buttons */
+    font-size: 1rem; /* Font size for the button */
+    transition: background-color 0.3s, border-color 0.3s, color 0.3s; /* Smooth transition for hover state */
+}
+
+.title-bar a:hover {
+    background-color: white;
+    color: #262626; /* Text color changes to the original background color */
+    border-color: #262626; /* Border color changes to match the text */
+}
+
+ @media (max-width: 768px) {
+    .title-bar {
+        flex-direction: column; 
+        padding-top: 1rem; 
+        overflow-x: scroll;
+    }
+
+    .title-bar div, .title-bar a {
+        width: 100%; 
+        justify-content: left; 
+        margin-top: 0.5rem; 
+    }
+
+    .title-bar a {
+        margin-left: 3%; 
+        margin-bottom: 0.5rem; 
+    }
+} 
+
+
+a.active {
+    color: #fac912;
+    font-weight: bold;
+    border-bottom: 2px solid #fac912;
+}
+
+@media (max-width: 768px) {
+    .avatar-container {
+        margin-bottom: -20%;
+    }
+
+    .next-component{
+        margin-top: 15vh;
+    }
+}
+
+/* @keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+@keyframes blink {
+  50% { border-color: transparent; }
+}
+
+.typed-out {
+  opacity: 1;
+  overflow: hidden; 
+  white-space: nowrap; 
+  border-right: 5px solid #fac912; 
+  animation:
+    typing 4s steps(40, end),
+    blink 1s step-end infinite;
+}
+
+.no-cursor {
+  animation: none;
+  border-right: none;
+} */
+
+/* Typing effect */
+@keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+  }
+  
+  /* Blinking cursor effect */
+  @keyframes blink {
+    50% { border-color: transparent; }
+  }
+  
+  .typed-out {
+    opacity: 1;
+    overflow: hidden; /* Ensures the content doesn't break the container */
+    white-space: nowrap; /* Keeps the text in a single line on desktop */
+    border-right: 5px solid #fac912; /* Cursor */
+    animation:
+      typing 4s steps(40, end),
+      blink 1s step-end infinite;
+    /* Adjust 'steps' for the typing speed */
+  }
+  
+  @media (max-width: 768px) {
+    .typed-out {
+      white-space: normal; /* Allows text wrapping on small screens */
+      word-wrap: break-word; /* Breaks long words to prevent overflow */
+      
+      overflow-x: visible;
+    border-right: 3px solid #fac912;
+    margin-left: -5%;
+      animation:
+        typing 8s steps(80, end), 
+        blink 1s step-end infinite;
+        
+    }
+  }
+  
+  /* Additional responsive design adjustments */
+  @media (max-width: 768px) {
+    .Secondary {
+      font-size: 2.5vh; /* Smaller font size for better fitting */
+    }
+  }
+  
+      
+  
+  

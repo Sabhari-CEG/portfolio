@@ -1,0 +1,185 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;700&display=swap');
+
+.Primary {
+    animation: fadeIn 3s ease forwards;
+    opacity: 0;
+    color: #ffffff;
+    font-size: 3vh;
+    font-family: 'Work Sans', sans-serif;
+    
+}
+
+.Secondary {
+    animation: fadeIn 3s ease forwards;
+    opacity: 0;
+    color: #a4a6a8;
+    font-size: 3vh;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.skills-container {
+    max-width: 75%;
+    margin: auto;
+    padding: 20px;
+    text-align: left; 
+}
+
+.skills-container {
+    max-width: 90%;
+    margin: auto;
+    padding: 20px 0;
+  }
+  
+  .skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .skill-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px; /* Adjust based on your preference */
+    text-align: center;
+    border-radius: 8px; /* Optional: for rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: for subtle shadow */
+    background-color: #262626;
+  }
+  
+  .skill-avatar {
+    margin-top: 16px; /* Adjust based on your preference */
+  }
+  
+  .skill-name {
+    margin-top: 12px; /* Adjust based on your preference */
+    font-weight: bold; /* Optional: if you want the name to stand out */
+    color: white;
+    font-size: 1rem;
+  }
+  
+
+
+@keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+  }
+  
+  /* Blinking cursor effect */
+  @keyframes blink {
+    50% { border-color: transparent; }
+  }
+  
+  .typed-out {
+    opacity: 1;
+    overflow: hidden; /* Ensures the content doesn't break the container */
+    white-space: nowrap; /* Keeps the text in a single line */
+    border-right: 5px solid #fac912; /* Cursor */
+    animation:
+      typing 4s steps(40, end),
+      blink 1s step-end infinite;
+    /* Adjust 'steps' for the typing speed */
+  }
+  
+  /* Hides the cursor at the end of the animation */
+  .no-cursor {
+    animation: none;
+    border-right: none;
+  }
+  
+  /* Container for each skill that allows for a 3D flip effect */
+.skill-flip-container {
+    perspective: 1000px;
+    width: 200px; /* Adjust to fit the size of your cards */
+    height: 250px; /* Adjust to fit the size of your cards */
+  }
+  
+  /* The flipper does the actual flipping */
+  .skill-flipper {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transition: transform 3s;
+    transform-style: preserve-3d;
+    transform: rotateY(-180deg); /* Start flipped to show the back (empty side) */
+  }
+  
+  /* When the skill comes into view, flip to show the front */
+  .flipped .skill-flipper {
+    transform: rotateY(0);
+  }
+  
+  /* Front side of the card with the skill logo and name */
+  .skill-card {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden; /* Hide the back side when flipped */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px; /* Optional: for rounded corners */
+    background-color: #262626; /* Card background color */
+  }
+  
+  /* Back side of the card (initially visible side) */
+  .skill-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    transform: rotateY(180deg); /* Rotate to face the back */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #333; /* Back side background color */
+    color: #fff; /* Text color for the back side */
+    border-radius: 8px; /* Optional: for rounded corners */
+  }
+  
+
+   .workshop-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+  }
+  
+  .workshop-card {
+    width: calc(30% - 10px); /* Two cards per row for desktop */
+    background-color: #262626;
+    color: #fff;
+    border-radius: 8px; /* Optional: Adds rounded corners to the card */
+    animation: fadeIn 3s ease forwards;
+  }
+  
+  /* Ensure the image covers the top part of the card */
+  .workshop-avatar {
+    width: 100%; /* Full width of the card */
+    height: 300px; /* Fixed height for the image */
+    object-fit: cover; /* Ensures the image covers the designated area without losing its aspect ratio */
+    border-top-left-radius: 8px; /* Matches the card's border radius */
+    border-top-right-radius: 8px; /* Matches the card's border radius */
+  }
+  
+  .workshop-details {
+    padding: 15px; /* Adds some padding around the details for spacing */
+    font-size: 2vh;
+  }
+  
+  .workshop-details h3 {
+    color: #fac912; /* Highlight color for the workshop name */
+    font-size: 2.5vh;
+  }
+  
+  /* Responsive adjustments for mobile */
+  @media (max-width: 768px) {
+    .workshop-card {
+      width: 100%; /* Full width for mobile */
+    }
+  }
+  

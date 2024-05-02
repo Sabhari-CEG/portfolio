@@ -1,0 +1,125 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;700&display=swap');
+
+.Primary {
+    animation: fadeIn 3s ease forwards;
+    opacity: 0;
+    color: #ffffff;
+    font-size: 3vh;
+    font-family: 'Work Sans', sans-serif;
+    
+}
+
+.Secondary {
+    animation: fadeIn 3s ease forwards;
+    opacity: 0;
+    color: #a4a6a8;
+    font-size: 3vh;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.experience-container {
+    max-width: 75%;
+    margin: auto;
+    padding: 20px;
+    text-align: left; 
+}
+
+.experience-list {
+    animation: fadeIn 3s ease forwards;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.experience-item {
+    display: flex;
+    align-items: flex-start; /* Align items at the start */
+    margin-bottom: 40px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 25px;
+    background-color: #262626;
+    /* Ensure content starts from the left */
+    justify-content: flex-start;
+    padding-bottom: 3vh;
+
+}
+
+.experience-logo {
+    flex-shrink: 0;
+    margin-right: 40px;
+    /* Larger size for the logo */
+    margin-top: 2.5vh;
+    margin-left: 1vw;
+    width: 100px;
+    height: 100px;
+}
+
+.experience-info {
+    text-align: left;
+    flex-grow: 1;
+}
+
+.experience-info h3, .experience-info p {
+ font-family: 'Work Sans', sans-serif;
+ font-size: 1rem;
+}
+
+.degree, .field, .duration, .cgpa {
+    margin: 4px 0;
+    color: #666;
+    font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+ .experience-item {
+     flex-direction: column; /* Stack logo and info vertically */
+     align-items: center; /* Center-align items for a neater appearance */
+ }
+
+ .experience-logo {
+     margin-right: 0; /* Remove right margin since it's no longer next to text */
+     margin-bottom: 20px; /* Add some space between the logo and text content */
+ }
+
+ .experience-info {
+     text-align: left; /* Center-align the text for mobile */
+     margin-left: 1vw;
+ }
+
+ 
+}
+
+.Primary a{
+ color: #ffffff;
+}
+
+@keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+  }
+  
+  /* Blinking cursor effect */
+  @keyframes blink {
+    50% { border-color: transparent; }
+  }
+  
+  .typed-out {
+    opacity: 1;
+    overflow: hidden; /* Ensures the content doesn't break the container */
+    white-space: nowrap; /* Keeps the text in a single line */
+    border-right: 5px solid #fac912; /* Cursor */
+    animation:
+      typing 4s steps(40, end),
+      blink 1s step-end infinite;
+    /* Adjust 'steps' for the typing speed */
+  }
+  
+  /* Hides the cursor at the end of the animation */
+  .no-cursor {
+    animation: none;
+    border-right: none;
+  }
+  

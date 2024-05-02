@@ -1,0 +1,51 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;700&display=swap');
+
+.Primary {
+    animation: fadeIn 3s ease forwards;
+    opacity: 0;
+    color: #ffffff;
+    font-size: 3vh;
+    font-family: 'Work Sans', sans-serif;
+    
+}
+
+.Secondary {
+    animation: fadeIn 3s ease forwards;
+    opacity: 0;
+    color: #fac912;
+    font-size: 3vh;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.contact-footer{
+    background-color: #fac912;
+    /* height: 300px; */
+    text-align: left;
+    padding: 5%;
+    border-top-left-radius: 5%; /* Adjust the radius as needed */
+    border-top-right-radius: 5%;
+}
+
+.contact-footer p{
+    color: black;
+    font-size: 2.5vh;
+}
+
+.contact-footer a{
+    color: black;
+    font-size: 2.5vh;
+    text-decoration: none;
+}
+
+.contact-link {
+    text-decoration: none; /* Removes underline */
+    color: inherit; /* Use the surrounding text color */
+  }
+  
+
+.icons{
+    margin-right: 1%;
+    color: #ffffff;
+}

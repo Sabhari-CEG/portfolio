@@ -1,0 +1,117 @@
+/* projects.css */
+.ant-list {
+    background-color: #333; /* Set the background color of the list */
+    /* max-width: 75%; */
+    margin: auto;
+    padding: 20px;
+    text-align: left;
+    border-radius: 12.5px;
+  }
+
+  @keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-100%); /* Start off-screen to the left */
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0); /* End at the original position */
+      opacity: 1;
+    }
+  }
+  
+  .inner-box{
+    text-align: left;
+    margin: auto;
+    padding: 20px;
+    max-width: 100%;
+    animation: slideInFromLeft 2s ease-out forwards;
+    animation-delay: 1s;
+  }
+
+  .outer-box{
+    text-align: left;
+    margin: auto;
+    padding: 20px;
+    max-width: 75%; 
+    animation: slideInFromLeft 2s ease-out forwards;
+
+  }
+
+  @media (max-width: 768px){
+    .outer-box{
+      max-width: 90%;
+    }
+  }
+  
+  .ant-list-item {
+    border-color: #444; /* Adjust the border color to make it slightly visible or blend with the background */
+  }
+  
+  .ant-pagination-item, .ant-pagination-item-link {
+    background-color: #333; /* Background for pagination buttons */
+    border-color: #444; /* Border color for pagination buttons */
+  }
+  
+  .ant-pagination-item a, .ant-pagination-item-link {
+    color: #fac912 !important; /* Font color for pagination buttons */
+    background-color: black;
+    border-color: #fac912 !important;
+  }
+  
+  .ant-pagination-item-active {
+    background-color: #fac912; /* Slightly lighter background for active pagination button */
+    border-color: #fac912 !important;
+  }
+  
+ .project-title{
+    font-size: 3vh;
+    font-family: 'Work Sans', sans-serif;
+    color : #fac912 !important;
+    animation: slideInFromLeft 3s ease forwards;
+    opacity: 0;
+ }
+
+ .project-git{
+    font-size: 2vh;
+    font-family: 'Work Sans', sans-serif;
+    color : #fac912 !important;
+    animation: slideInFromLeft 3s ease forwards;
+    opacity: 0;
+    text-align: center;
+ }
+
+ .project-description{
+    color: #fff !important;
+    font-size: 2.5vh;
+     font-family: 'Work Sans', sans-serif;
+     animation: slideInFromLeft 3s ease forwards;
+     opacity: 0;
+ }
+
+ .project-content{
+    color: #fff !important;
+    font-size: 2.5vh;
+     font-family: 'Work Sans', sans-serif;
+     animation: slideInFromLeft 3s ease forwards;
+     opacity: 0;
+ }
+  
+ @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;700&display=swap');
+ 
+ .Primary {
+     animation: fadeIn 3s ease forwards;
+     opacity: 0;
+     color: #ffffff;
+     font-size: 3vh;
+     font-family: 'Work Sans', sans-serif;
+     
+ }
+ 
+ .Secondary {
+     animation: fadeIn 3s ease forwards;
+     opacity: 0;
+     color: #a4a6a8;
+     font-size: 3vh;
+     font-family: 'Work Sans', sans-serif;
+ }
