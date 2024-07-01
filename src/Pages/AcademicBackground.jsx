@@ -32,7 +32,7 @@ const AcademicBackground = () => {
             degree : "Bachelor of Engineering",
             field : "Computer Science and Engineering",
             duration : "Fall 2018 - Spring 2022",
-            cgpa : "CGPA : 8.91/10",
+            cgpa : "CGPA : 8.91/10 (3.808 / 4)",
             courses : ["C",
             "Discrete Mathematics", "Data structures and Algorithms", "Probablity and Statistics", 
             "DBMS", "Computer Architecture", "OS",

@@ -4,6 +4,7 @@ import gcp from "../images/gcp.png"
 import educative from "../images/educative.png"
 import umich from "../images/umich.png"
 import simplilearn from "../images/simplilearn.jpeg"
+import ms from "../images/microsoft.jpg"
 import { Card, Button } from 'antd';
 import { CalendarOutlined, LinkOutlined, HomeOutlined, LaptopOutlined } from '@ant-design/icons';
 
@@ -113,7 +114,25 @@ const CertificationSkills = () => {
             platform : "Platform : Simplilearn",
             date : "Date : Apr 2024",
             description : "I had learnt basics of NodeJS and create api in ExpressJS. Developed multi-routes, auth enabled, MongoDB powered APIs using ExpressJS",
-            certificate : "https://drive.google.com/file/d/1xJ49NalJ2KMn3PlwQdcQBeRSop93_D_t/view?usp=drivesdk",
+            certificate : "https://www.simplilearn.com/skillup-certificate-landing?token=eyJjb3Vyc2VfaWQiOiIxNzQ2IiwiY2VydGlmaWNhdGVfdXJsIjoiaHR0cHM6XC9cL2NlcnRpZmljYXRlcy5zaW1wbGljZG4ubmV0XC9zaGFyZVwvdGh1bWJfNTA1NzA2M18xNzEzNDM3NzQ5LnBuZyIsInVzZXJuYW1lIjoiU2FiaGFyaSBQIn0%3D&utm_source=shared-certificate&utm_medium=lms&utm_campaign=shared-certificate-promotion&referrer=https%3A%2F%2Flms.simplilearn.com%2Fcourses%2F4236%2FGetting-started-with-NodeJS%2Fcertificate%2Fdownload-skillup&%24web_only=true&_branch_match_id=1313121547613282697&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXL87MLcjJ1EssKNDLyczL1k%2FVN8s3Tfct8owo904CAOIsZ3wlAAAA",
+        },
+        {
+            thumb : simplilearn,
+            name : "Become a Data Science Expert with Python Django Tutorial",
+            organization : "Organization : Simplilearn | Skillup",
+            platform : "Platform : Simplilearn",
+            date : "Date : Jun 2024",
+            description : "I had learnt basics of Full stack development in Django with HTML, CSS and JS. Created some projects using Django.",
+            certificate : "https://www.simplilearn.com/skillup-certificate-landing?token=eyJjb3Vyc2VfaWQiOiIzMTMwIiwiY2VydGlmaWNhdGVfdXJsIjoiaHR0cHM6XC9cL2NlcnRpZmljYXRlcy5zaW1wbGljZG4ubmV0XC9zaGFyZVwvdGh1bWJfNjc0NjY3MV8xNzE4NzE5MTI3LnBuZyIsInVzZXJuYW1lIjoiU2FiaGFyaSBQIn0%3D&utm_source=shared-certificate&utm_medium=lms&utm_campaign=shared-certificate-promotion&referrer=https%3A%2F%2Flms.simplilearn.com%2Fcourses%2F5897%2FBecome-a-Data-Science-Expert-with-Python-Django-Tutorial%2Fcertificate%2Fdownload-skillup&%24web_only=true&_branch_match_id=1313121547613282697&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXL87MLcjJ1EssKNDLyczL1k%2FVN8hxCY8ILI4o904CAJ%2B9v0IlAAAA",
+        },
+        {
+            thumb : ms,
+            name : "Career Essentials in Generative AI by Microsoft and LinkedIn",
+            organization : "Organization : Microsoft",
+            platform : "Platform : Linkedin Learning",
+            date : "Date : Jun 2024",
+            description : "Mastered essential career skills in Generative AI through Microsoft and LinkedIn's Career Essentials program, gaining practical insights into cutting-edge AI technologies.",
+            certificate : "https://www.linkedin.com/learning/certificates/fbd79dd3ee1a108908e536cc4383c39f6a7c3335690fc4ddb123b1739bf8f13c",
         }
     ]
 

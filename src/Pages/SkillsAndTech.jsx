@@ -29,6 +29,7 @@ import nn from "../images/neural-network.jpg"
 import dl from "../images/deep-learning.jpg"
 import gan from "../images/GAN.png"
 import genai from "../images/generativeAI.jpg"
+import django from "../images/django.png"
 
 import { Avatar, Card } from 'antd';
 
@@ -54,6 +55,14 @@ const SkillsAndTech = () => {
         {
             logo : fullstack,
             name : "Full-stack Development"
+        },
+        {
+            logo : mern,
+            name : "MERN Stack"
+        },
+        {
+            logo : django,
+            name : "Django Full stack development"
         },
         {
             logo : sde,
@@ -106,10 +115,6 @@ const SkillsAndTech = () => {
         {
             logo : cs,
             name : "Cyber Security"
-        },
-        {
-            logo : mern,
-            name : "MERN Stack"
         },
         {
             logo : git,

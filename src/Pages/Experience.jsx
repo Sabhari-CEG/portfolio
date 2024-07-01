@@ -1,6 +1,7 @@
 import './Experience.css'
 import g5 from "../images/g5.png"
 import searce from "../images/searce.png"
+import pmcurve from "../images/pmcurve.jpeg"
 import { Avatar } from 'antd';
 import { useInView } from 'react-intersection-observer';
 import useTypingEffect from './TypingEffect'
@@ -23,19 +24,32 @@ const Experience = () => {
 
     const experiences = [
         {
+            logo : pmcurve,
+            name : "pmcurve, Bangalore, Karnataka, India",
+            position : "MERN Stack Developer",
+            description : "A comprehensive platform offering professional training and continuous learning solutions for individuals and organizations.",
+            link : "https://www.pmcurve.com/",
+            duration : "May 2024 - Aug 2024",
+            responsibilities : [
+                "Architected the underlying infrastructure of products, making critical decisions on the technologies to use, ensuring scalability and efficiency.",
+                "Developed a content delivery and management system using the MERN stack, enabling the creation and modification of content for over 15+ courses.",
+                "Built the main edtech platform with the MERN stack, successfully managing over 1,000 active concurrent users, ensuring a seamless and robust user experience."
+            ]
+        },
+        {
             logo : g5,
             name : "Galleri5, Bangalore, Karnataka, India",
             position : "Associate Manager - Software Engineering",
             description : "Galleri5 is an AI-powered influencer marketing platform that helps discover, collaborate,manage influencers.",
             link : "https://www.galleri5.com/",
-            duration : "Jun 2023 - Present",
+            duration : "Jun 2023 - May 2024",
             responsibilities : [
-                "Orchestrated the launch of internal admin app singlehandedly, which automates 80% of previous manual tasks. Thus reduced reliance on the tech team.",
-                "Initiated and continuously enhanced an affiliate app product(nearly 15,000 active users and 30+ brands), spearheading its evolution with the support of a dynamic team of junior developers.",
-                "Steered the strategic updates of the existing creator app(used by around 10,000 users), later taking a pivotal role in the seamless integration with the affiliate apps. Currently oversee the unified platform.",
-                "Carried out perodical updates, bug fixes and feature addition to the main product of the galleri5 called brandsapp(used by almost 1000+ brands).",
-                "Contributed to the initial development of a generative AI feature, utilizing the advanced Stable Diffusion XL LoRa model. producing results in approximately 30 seconds.",
-                "Resolved the storage problem by migrating the data to GCP and creating a custom library for efficient data access. Thus reducing the storage cost by 30% and improving average latency from 5 to 2 seconds.",
+                "Spearheaded the launch of an internal admin app, automating 80% of manual tasks and significantly reducing the tech team's workload.",
+                "Pioneered and continuously enhanced an affiliate app product, growing it to nearly 15,000 active users and 30+ brands. Led a team of junior developers in its ongoing evolution.",
+                "Directed strategic updates and integration of the creator app (used by around 10,000 users) with the affiliate app, ensuring a seamless transition to a unified platform.",
+                "Managed periodic updates, bug fixes, and feature additions for Galleri5's flagship product, BrandsApp, which is utilized by over 1,000 brands, ensuring its consistent performance and reliability.",
+                "Contributed to the development of a generative AI feature using the advanced Stable Diffusion XL LoRa model, achieving results in approximately 30 seconds.",
+                "Optimized storage solutions by migrating data to GCP, developing a custom library for efficient data access. This initiative reduced storage costs by 30% and improved average latency from 5 seconds to 2 seconds.",
             ]
         },
         {
@@ -46,9 +60,11 @@ const Experience = () => {
             link : "https://www.searce.com/",
             duration : "Jul 2022 - Jun 2023",
             responsibilities : [
-                "Addressed the client’s high storage costs, developed a custom Python library for Google Cloud Bucket, reducing expenses and ensuring compatibility with their existing legacy code. Thus optimizing their storage cost by 18%.",
-                "Developed a ReactJS solution by integrating Google Maps and Route APIs to optimize and maintain truck traffic for a leading Dubai government logistics service. Thus reducing the truck waiting time at gates by 50 seconds at most.",
-                "Partispated in Flutter Hackathon, built a e-commerce backend using GO Lang."
+                "Reduced client storage costs by 18% by developing a custom Python library for Google Cloud Bucket, ensuring seamless compatibility with existing legacy code and optimizing overall storage expenses.",
+                "Developed a ReactJS solution integrating Google Maps and Route APIs for a leading Dubai government logistics service, optimizing truck traffic and reducing gate waiting times by up to 50 seconds.",
+                "Earned 1 associate-level and 3 professional-level GCP certifications, demonstrating expertise in Google Cloud Platform and commitment to continuous learning and professional development.",
+                "Participated in a Flutter Hackathon, I had also built an e-commerce backend using Go Lang, demonstrating proficiency in backend development and collaboration in a competitive environment.",
+                "Completed training on relational databases and also gained hands-on experience with the MERN stack, enhancing my capabilities in full-stack development and database management."
             ]
         }
     ]

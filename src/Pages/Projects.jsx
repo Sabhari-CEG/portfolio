@@ -7,6 +7,7 @@ import { GithubOutlined } from '@ant-design/icons';
 import StartupProjects from './StartupProjects';
 import SearceProjects from './SearceProjects';
 import Galleri5Projects from './Galleri5Projects';
+import PmcurveProjects from './PmcurveProjects';
 
 const data = [
   {
@@ -177,6 +178,9 @@ const typedIndex = useTypingEffect(items);
   </div>
   <div>
     <Galleri5Projects />
+  </div>
+  <div>
+    <PmcurveProjects />
   </div>
   </div>
   );

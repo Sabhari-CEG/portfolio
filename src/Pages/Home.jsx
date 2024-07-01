@@ -154,7 +154,7 @@ const Home = () => {
                 : <Avatar className="custom-avatar" size={avatarSize} src={dp} style={{ backgroundColor: '#a4a6a8' }} /> }
                 
             </div>
-            <h1 className="Primary" style={{marginTop: "-5%", fontSize: "5vh"}}>Sabhari Parameswaran</h1>
+            <h1 className="Primary" style={{ fontSize: "5vh"}}>Sabhari Parameswaran</h1>
             <ul className="Secondary" style={{listStyle: "none"}}>
            
                 {items.map((item, index) => (

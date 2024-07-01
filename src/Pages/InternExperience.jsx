@@ -18,7 +18,7 @@ const InternExperience = () => {
             link : "https://www.dcentmass.com/",
             duration : "May 2020 - Aug 2020",
             responsibilities : [
-                "Experienced in UI development, testing, and customization of TAO and MOODLE platforms, contributing to a comprehensive skill set in these domains. Developed around 15% of their overall product plan."
+                "Expertise in UI development, testing, and customization of TAO and MOODLE platforms, contributing to a robust and comprehensive skill set in these domains. Played a key role in developing approximately 15% of their overall product plan, ensuring high-quality and user-friendly interfaces."
             ]
         }
     ]
