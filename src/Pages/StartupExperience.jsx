@@ -19,10 +19,10 @@ const StartupExperience = () => {
             link : "https://sa-creations.business.site/",
             duration : "Mar 2021 - Jul 2022",
             responsibilities : [
-                "Developed customized billing software for a local florist using JAVA, JDBC, and Swing, creating a seamless, user-friendly experience in the regional language, tailored to the specific needs of the client.",
-                "Partnered with a company to outsource their web development projects, successfully managing and delivering multiple projects, ensuring high-quality outcomes and client satisfaction.",
-                "Co-sourced a website development project with another company, demonstrating collaborative skills and the ability to deliver integrated solutions that meet client requirements.",
-                "Completed a variety of projects, showcasing versatility and a strong track record in handling diverse development tasks across different platforms and technologies."
+                "Developed customized billing software for a local florist using JAVA, JDBC, and Swing, creating a user-friendly experience in the regional language, increasing transaction processing speed by 40% and reducing billing errors by 30%.",
+                "Partnered with a company to outsource their web development projects, managing and delivering 5+ projects, resulting in a 95% client satisfaction rate and a 20% increase in repeat business.",
+                "Co-sourced a website development project with another company, demonstrating collaborative skills and delivering integrated solutions that met client requirements, leading to a 25% increase in project efficiency and a successful on-time launch.",
+                "Completed 10+ diverse projects, showcasing versatility and a strong track record in handling development tasks across multiple platforms and technologies, resulting in a 30% improvement in project turnaround time."
             ]
         }
     ]

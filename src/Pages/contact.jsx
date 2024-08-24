@@ -23,7 +23,7 @@ const Contact = () => {
             ))}
             <p><a href="mailto:sabhari2@illinois.edu" target="_blank" rel="noopener noreferrer"><MailOutlined className="icons"/>sabhari2@illinois.edu</a></p>
             <p><a href="mailto:sabhari2000@gmail.com" target="_blank" rel="noopener noreferrer"><MailOutlined className="icons"/>sabhari2000@gmail.com</a></p>
-            <p><a href="tel:8220265629" className="contact-link"><PhoneOutlined className="icons"/> +91 82202 65629</a></p>
+            <p><a href="tel:2177668062" className="contact-link"><PhoneOutlined className="icons"/> +1 217-766-8062</a></p>
             <p><a href="https://www.linkedin.com/in/sabhari-p/" target="_blank" rel="noopener noreferrer"><LinkedinOutlined className="icons"/>Sabhari P on Linkedin</a></p>
             <p><a href="https://github.com/Sabhari-CEG?tab=repositories" target="_blank" rel="noopener noreferrer"><GithubOutlined  className="icons"/>Sabhari on Github</a></p>
         </div>

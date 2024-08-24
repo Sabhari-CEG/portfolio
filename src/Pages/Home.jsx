@@ -18,7 +18,7 @@ const Home = () => {
     const [isContentLoaded, setContentLoaded] = useState(false);
     const items = [ 
     "Full Stack Developer",
-    "CS Master's student at UIUC",
+    "Graduate CS at UIUC",
     "Seeking internship and co-op"
     ];
     const typedIndex = useTypingEffect(items);

@@ -17,6 +17,7 @@ import bootstrap from "../images/bootstrap.jpeg"
 import dart from "../images/dart.png"
 import assembly from "../images/assembly.png"
 import erlang from "../images/erlang.png"
+import node from "../images/node.png"
 import { Avatar, Card } from 'antd';
 
 
@@ -61,6 +62,14 @@ const LanguageSkills = () => {
             name : "C++"
         },
         {
+            logo : node,
+            name : "Node JS"
+        },
+        {
+            logo : expressjs,
+            name : "Express JS"
+        },
+        {
             logo : sql,
             name: "SQL"
         },
@@ -71,10 +80,6 @@ const LanguageSkills = () => {
         {
             logo : css,
             name : "CSS"
-        },
-        {
-            logo : expressjs,
-            name : "Express JS"
         },
         {
             logo : php,
