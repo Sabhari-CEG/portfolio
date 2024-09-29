@@ -24,7 +24,7 @@ const AcademicBackground = () => {
             field : "Computer Science",
             duration : "Fall 2024 - Fall 2025",
             cgpa : null,
-            courses : []
+            courses : ["Database Systems", "Advanced Data Management", "Artificial Intelligence"]
         },
         {
             logo : ceg,

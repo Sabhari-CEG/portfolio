@@ -8,6 +8,7 @@ import StartupProjects from './StartupProjects';
 import SearceProjects from './SearceProjects';
 import Galleri5Projects from './Galleri5Projects';
 import PmcurveProjects from './PmcurveProjects';
+import UiucProjects from './UiucProjects';
 
 const data = [
   {
@@ -181,6 +182,9 @@ const typedIndex = useTypingEffect(items);
   </div>
   <div>
     <PmcurveProjects />
+  </div>
+  <div>
+    <UiucProjects />
   </div>
   </div>
   );
