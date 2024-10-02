@@ -10,19 +10,19 @@ const startupProjects = [
   {
     href : null,
     title : "Flower shop billing software in regional language(JAVA).",
-    description : "Developed a software application for a flower shop, tailored to operate in our regional language. It records individual sales transactions(30 days * ~1045 users = ~31350 transactions a month) and generates monthly bill summaries. This software was entirely written in Java, using JDBC for Oracle SQL server connectivity and Swing for the frontend.",
+    description : "Processed 31,350 monthly transactions by developing a Java-based sales application for a flower shop, using JDBC for Oracle SQL connectivity and Swing for the frontend, tailored for the regional language.",
     content : "Skills : Java, Swing, JDBC, Oracle SQL."
    },
    {
     href : null,
     title : "Co-Sourced a company to make several websites.",
-    description : "Collaborated with a logo-making company based in Bangalore, which specializes in creating custom logos for clients. Leveraging my expertise, I accessed the company's servers to build and deploy custom websites(made around 4 websites) using ReactJS, and hosted these sites directly on their servers.",
+    description : "Deployed 4 custom websites by collaborating with a logo-making company and building ReactJS-based sites, hosted directly on the company's servers in Bangalore.",
     content : "Skills : ReactJS, HTML, CSS, Javascript, NodeJS, PHP, Hosting, MongoDB."
    },
    {
     href : null,
     title : "Bus ticket booking app(POC - Flutter).",
-    description : "Undertook a proof of concept (POC) for a bus ticket booking app for a client, developing it with basic features using Flutter and MongoDB. The POC was successful, but the client ultimately chose to proceed with larger consulting companies for further development.",
+    description : "Delivered a successful proof of concept for a bus ticket booking app by developing it with Flutter and MongoDB, demonstrating core features before the client moved to larger consulting companies.",
     content : "Skills : Flutter, Mobile App Development, MongoDB."
    }
 ]

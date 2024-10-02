@@ -10,37 +10,37 @@ const galleri5Projects = [
     {
       href : "https://affiliate.galleri5.com/",
       title : "Galleri5 Affiliate app.",
-      description : "Initiated, developed, and maintained Galleri5's affiliate app using FastAPI and ReactJS. As one of the three main products at Galleri5, it serves approximately 15,000 daily users and disburses about 1 million rupees monthly. To accelerate development, I also managed a team of junior developers.",
+      description : "Served 15,000 daily users and disbursed 1M rupees monthly by initiating, developing, and maintaining Galleri5’s affiliate app using FastAPI and ReactJS, while managing a team of junior developers to accelerate development.",
       content : "Skills : Python, ReactJS, FastAPI, GCP, MongoDB, Transaction management."
      },
      {
       href : "https://creators.galleri5.com/",
       title : "Galleri5 Creator app.",
-      description : "Contributed to the ongoing development of the Creators app, an existing platform for the past three years, by modifying, adding, and optimizing its functionalities. As the second of three main products, it is utilized by approximately 10,000+ influencers.",
+      description : "Enhanced functionalities for 10,000+ influencers by contributing to the ongoing development of the Creators app, optimizing its features as one of Galleri5’s key products.",
       content : "Skills : Python, ReactJS, FastAPI, AWS, MongoDB."
      },
      {
       href : "https://brands.galleri5.com/",
       title : "Galleri5 Brands app.",
-      description : "contributed to enhancing and optimizing BrandsApp, a key product that has been operational for five years. My role involved adding new features to this app, which supports and manages interactions with over 100 brands.",
+      description : "Improved brand interactions for 100+ brands by adding new features and optimizing Galleri5's BrandsApp, contributing to a five-year operational success.",
       content : "Skills : Python, ReactJS, FlaskAPI, AWS, GCP, MongoDB."
      },
      {
       href : null,
       title : "Generative AI.",
-      description : "Collaborated with the CTO to develop an initial version of the generative AI stable diffusion XL LoRa, establishing a stable base for future enhancements and innovations. Achieved 87% accuracy and execution time below 30s.",
+      description : "Achieved 87% accuracy and <30s execution time by collaborating with the CTO to develop the initial version of generative AI stable diffusion XL LoRa, setting a stable foundation for future enhancements.",
       content : "Skills : Python, ML, AI, Generative AI, Image Generation, Prompt Engineering."
      },
      {
       href : null,
       title : "Database Optimization and Management.",
-      description : "Resolved the company’s storage problem by migrating the data to Google Cloud and creating a custom library for efficient data access. Thus reducing the company’s monthly storage cost by $65 and improving average latency from 5 to 2 seconds.",
+      description : "Reduced storage costs by $65/month and improved latency from 5 to 2 seconds by migrating data to Google Cloud and developing a custom library for efficient access.",
       content : "Skills : DBMS, Cloud storage, Optimization."
      },
      {
       href : "https://github.com/Sabhari-CEG/Custom-browser-tab-implementation",
       title : "Custom Browser Implementation.",
-      description : "Developed a custom implementation of my own browser with HTML, CSS, Javascript, JQuery with customized keyboard short cuts. I had used IFrames to load the websites.",
+      description : "Developed a custom browser with optimized keyboard shortcuts using HTML, CSS, JavaScript, JQuery, and IFrames for loading websites.",
       content : "Skills : HTML, CSS, Javascrip, JQuery, IFrames."
      },
   

@@ -14,91 +14,91 @@ const data = [
   {
     href : null,
     title : "School database(MySQL) Management",
-    description : "Developed a fully normalized SQL database schema populated with public school data and built a website using Node.js, HTML, and CSS, with PHP handling CRUD operations to interact with the database. The structure works well and fast with around 5K students records.",
+    description : "Achieved a high-performing database structure as measured by handling 5K student records efficiently by developing a normalized SQL schema and a website using Node.js, PHP, HTML, and CSS for CRUD operations.",
     content : "Skills : HTML, CSS, Javascript, NodeJS, PHP, MySQL, Normalization",
    },
    {
     href : null,
     title : "5 layer internet protocol stack simulation.",
-    description : "Implemented a C socket connection to transfer messages between systems on the same WiFi, where the sender encapsulates data according to a specified protocol and the receiver decodes it accordingly. It achieves a 104kb of data transfer in 58ms.",
+    description : "Transferred 104kb of data in 58ms by implementing a C socket connection that encapsulates and decodes data using a specified protocol between systems on the same WiFi.",
     content : "Skills : C Programming, Socket Programming, Network"
    },
    {
     href : null,
     title : "CPU Scheduling algorithm simulation.",
-    description : "Implemented a hybrid CPU scheduling algorithm in C that manages a pool of processes, handling their states and preemptively switching them for I/O operations, ensuring efficient execution and state management for each process. Due to this preemptive approach, it takes about 50% of the linear turn around time",
+    description : "Reduced linear turnaround time by 50% by implementing a hybrid CPU scheduling algorithm in C to manage and preemptively switch process states during I/O operations.",
     content : "Skills : C Programming, Operating System, Scheduling Algorithm"
    },
    {
     href : "https://github.com/Sabhari-CEG/DC-GAN",
     title : "Random animie generation using DCGAN.",
-    description : "Designed a DCGAN (Deep Convolutional Generative Adversarial Network) to create cartoon characters from existing images, requiring extensive experimentation with network layers, channels, and filter sizes with an accuracy of 93.2%(resembling the cartoon without noise).",
+    description : "Achieved 93.2% accuracy in generating cartoon images by designing a DCGAN and experimenting with network layers, channels, and filter sizes.",
     content : "Skills : Python, ML, Deep CNN, DL"
    },
    {
     href : "https://github.com/Sabhari-CEG/Vehicle-Routing-genetic-algorithm",
     title : "Solving Vehicle Routing Problem using Genetic Algorithm.",
-    description : "Generating an initial population with all possible routes, subjecting them to fitness evaluation for route selection, and iteratively mutating routes until the optimal distance was achieved. Found fast and effective over 17 locations.",
+    description : "Optimized route selection across 17 locations by generating an initial population, evaluating fitness, and iterating mutations to find the shortest route efficiently.",
     content : "Skills : Python, ML, NP-Hard problem, Problem solving, Algorithm"
    },
    {
     href : null,
     title : "GAN based DAY-TO-NIGHT style transfer for Vehicle detection.",
-    description : "Applied a day-to-night GAN transformation to the daytime images and retrained the model, resulting in a remarkable improvement the accuracy by 13% in nights.",
+    description : "Improved nighttime image transformation accuracy by 13% by applying a day-to-night GAN transformation and retraining the model.",
     content : "Skills : Python, ML, GAN, YOLO, Vehicle Detection, Performance improvement, Dataset generation, Style transfer"
    },
    {
     href : "https://github.com/Sabhari-CEG/Car_service_application_java",
     title : "Car service software(JAVA full-stack).",
-    description : "Analyzed the necessary features for a car service software and implemented a full-stack Java application, using Java for the backend with JDBC for PostgreSQL connectivity, and Java Swing components for the frontend.",
+    description : "Designed a full-stack car service software by analyzing key features and implementing a Java application with JDBC for PostgreSQL connectivity and Java Swing for the frontend.",
     content : "Skills : JAVA, JDBC, JAVA SWING, PostgreSQL, Object Oriented Approach"
    },
    {
     href : null,
     title : "Hybrid Movie Recommendation System.",
-    description : "Developed a hybrid movie recommendation system that combines content-based filtering and collaborative filtering. It searches for a movie in our dataset and, if not found, uses a browser request with BeautifulSoup to scrape and utilize the movie's metadata for recommendations. This system aligns with Netflix's recommendations 82% of the time.",
+    description : "Aligned movie recommendations with Netflix 82% of the time by developing a hybrid recommendation system using content-based and collaborative filtering with BeautifulSoup for external movie metadata.",
     content : "Skills : Python, dataset cleaning, web-scrapping, Recommendation system"
    },
    {
     href : null,
     title : "Restaurant's location, menu and success recommendation",
-    description : "Performed descriptive data mining on historical Zomato order data to analyze order patterns in Bangalore, providing recommendations for potential shop owners on optimal locations, menu offerings, pricing, shop timings, and promotional strategies to ensure a successful business. 93.3% of times our recommended kinds of resturants were success in that locality.",
+    description : "Helped 93.3% of recommended restaurants succeed by performing data mining on Zomato order data to provide insights on optimal locations, menu offerings, pricing, and shop timings in Bangalore.",
     content : "Skills : Python, data mining, data science, data integration, decision making, association rule mining, data visualization"
    },
    {
     href : "https://github.com/Sabhari-CEG/smart-car-parking-using-fogism",
     title : "Smart car parking using IFogSim.",
-    description : "Developed a system that utilizes sensors, cameras, and edge devices to gather and process parking-related data. iFogSim simulations demonstrate the efficiency of this fog-based system, showing significant reductions in latency and network usage compared to traditional cloud-based deployments.",
+    description : "Reduced latency and network usage by developing a fog-based parking system using iFogSim simulations to process data from sensors and cameras, demonstrating efficiency over traditional cloud-based systems.",
     content : "Skills : JAVA, Cloud computing, IOT, Fog-computing, Sensors."
    },
    {
     href : null,
     title : "Semantic Analysis of Product reviews.",
-    description : "Conducted a semantic analysis of various Amazon products, transforming their reviews into ratings based on positive or negative sentiments, achieving an impressive accuracy of 94.6%.",
+    description : "Achieved 94.6% sentiment analysis accuracy by conducting a semantic analysis of Amazon product reviews and transforming them into ratings based on sentiment.",
     content : "Skills : NLP, Python, data analysis."
    },
    {
     href : "https://github.com/Sabhari-CEG/currency-classification",
     title : "Classifications in ML.",
-    description : "I implemented a classification algorithm using a Convolutional Neural Network (CNN) to accurately distinguish between different currencies and animals, achieving over 90% accuracy in both classifications.",
+    description : "Classified currencies and animals with over 90% accuracy by implementing a CNN-based classification algorithm.",
     content : "Skills : Python, ML, Classification algorithms."
    },
    {
     href : "https://github.com/Sabhari-CEG/CEG-TECH-FORUM",
     title : "CEG Tech-forum's game website.",
-    description : "As the tech head of the CEG Tech Forum, a university-level tech club recognized by UNESCO for conducting national-level competitions, I designed various game and landing websites to support and enhance the club's activities.",
+    description : "Supported national-level competitions by designing game and landing websites as the tech head of CEG Tech Forum, a UNESCO-recognized university tech club.",
     content : "Skills : MERN, ReactJS, NodeJS, SQL."
    },
    {
     href : null,
     title : "CSEA official website for 2021 - 2022.",
-    description : "As an active member of CSEA, the official department club, I developed the department's official website for the years 2021 and 2022.",
+    description : "Developed the official department website for the years 2021 and 2022 as an active member of CSEA, the official department club.",
     content : "Skills : ReactJS, Javascript, HTML, CSS, Bootstrap, cloud and hosting."
    },
    {
     href : "https://github.com/Sabhari-CEG/WEATHER-REPORT",
     title : "Weather Report webiste",
-    description : "Designed a responsive website that fetches the weather from 3rd party api and display it in a visually pleasing manner.",
+    description : "Displayed real-time weather data by designing a responsive website that fetches data from a third-party API and presents it visually.",
     content : "Skills : Javascript, HTML, CSS, Bootstrap, API Integration."
    }
 ]

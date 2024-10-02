@@ -10,7 +10,13 @@ const uiucProjects = [
     {
       href : "https://github.com/Sabhari-CEG/SmartRoute-Optimizing-Urban-Navigation-with-Pathfinding-Algorithms",
       title : "SmartRoute: Optimizing Urban Navigation with Pathfinding Algorithms",
-      description : "Demonstrates the efficiency and effectiveness of four advanced pathfinding algorithms in finding optimal routes between cities, considering factors such as distance and time.",
+      description : "Demonstrated optimal city routes by implementing and comparing the efficiency of four advanced pathfinding algorithms, considering distance and time.",
+      content : "Skills : C++, Algorithm, Optimization, Inference."
+     },
+     {
+      href : "https://github.com/Sabhari-CEG/Benchmarking-Moving-Average-Crossover-Strategies-C-vs.-Go-vs.-Python-for-High-Frequency-Trading",
+      title : "Benchmarking Moving Average Crossover Strategies C++ vs Go vs Python for High Frequency Trading",
+      description : "Developed an algorithmic low latency trading simulator with backtesting using C++, Go, and Python, optimizing performance by 11x in Go through concurrent processing and achieving an execution time of 0.13s in Python using vectorized operations with pandas and NumPy.",
       content : "Skills : C++, Algorithm, Optimization, Inference."
      },
   ]
