@@ -17,7 +17,7 @@ const uiucProjects = [
       href : "https://github.com/Sabhari-CEG/Benchmarking-Moving-Average-Crossover-Strategies-C-vs.-Go-vs.-Python-for-High-Frequency-Trading",
       title : "Benchmarking Moving Average Crossover Strategies C++ vs Go vs Python for High Frequency Trading",
       description : "Developed an algorithmic low latency trading simulator with backtesting using C++, Go, and Python, optimizing performance by 11x in Go through concurrent processing and achieving an execution time of 0.13s in Python using vectorized operations with pandas and NumPy.",
-      content : "Skills : C++, Algorithm, Optimization, Inference."
+      content : "Skills : C++, Go, Python, Optimization, Algorithm, High Frequency, Trading, Finance, math."
      },
   ]
 
