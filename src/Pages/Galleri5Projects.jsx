@@ -43,6 +43,12 @@ const galleri5Projects = [
       description : "Developed a custom browser with optimized keyboard shortcuts using HTML, CSS, JavaScript, JQuery, and IFrames for loading websites.",
       content : "Skills : HTML, CSS, Javascrip, JQuery, IFrames."
      },
+     {
+      href : null,
+      title : "Galleri5 admin app.",
+      description : "Developed Galleri5's one-stop admin app, automating over 60% of manual tasks by providing key metrics, data analysis on trajectory, trends, and growth projections, while offering intuitive admin control for admin users across all products.",
+      content : "Skills : Python, Flask, ReactJS, Data Analysis, Access control, cyber security."
+     },
   
   ]
 
