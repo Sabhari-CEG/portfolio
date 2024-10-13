@@ -19,6 +19,12 @@ const uiucProjects = [
       description : "Developed an algorithmic low latency trading simulator with backtesting using C++, Go, and Python, optimizing performance by 11x in Go through concurrent processing and achieving an execution time of 0.13s in Python using vectorized operations with pandas and NumPy.",
       content : "Skills : C++, Go, Python, Optimization, Algorithm, High Frequency, Trading, Finance, math."
      },
+     {
+      href : "https://github.com/Sabhari-CEG/Advanced-Obstacle-Detection-and-Trajectory-Planning-for-Autonomous-Flying-Robots",
+      title : "Advanced Obstacle Detection and Trajectory Planning for Autonomous Flying Robots",
+      description : "Designed and implemented an AI-powered obstacle detection and trajectory planning system for autonomous flying robots, boosting navigation safety and efficiency by 30%.",
+      content : "Skills : Python, Machine Learning, Computer vision, Autonomous vehicle."
+     },
   ]
 
 
