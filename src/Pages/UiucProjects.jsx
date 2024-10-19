@@ -25,6 +25,12 @@ const uiucProjects = [
       description : "Designed and implemented an AI-powered obstacle detection and trajectory planning system for autonomous flying robots, boosting navigation safety and efficiency by 30%.",
       content : "Skills : Python, Machine Learning, Computer vision, Autonomous vehicle."
      },
+     {
+      href : "https://github.com/Sabhari-CEG/AutoInsight-LLM-AI-Intelligent-Car-Market-Analyzer-and-Assistant",
+      title : "AutoInsigh LLM AI-Intelligent Car Market Analyzer and Assistant",
+      description : "Developed AutoInsight AI, an AI-powered car buying assistant, integrating advanced data analysis and LLM-generated insights. Resulted in improved user engagement and reduced decision-making time by 40% for car buyers.",
+      content : "Skills : Python, ML, LLMs, Data Analysis, data visualization."
+     },
   ]
 
 
