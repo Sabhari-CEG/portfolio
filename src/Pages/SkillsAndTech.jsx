@@ -30,6 +30,7 @@ import dl from "../images/deep-learning.jpg"
 import gan from "../images/GAN.png"
 import genai from "../images/generativeAI.jpg"
 import django from "../images/django.png"
+import mobileAppDev from "../images/mobile_app_development.webp"
 
 import { Avatar, Card } from 'antd';
 
@@ -75,6 +76,10 @@ const SkillsAndTech = () => {
         {
             logo : web,
             name : "Web Development"
+        },
+        {
+            logo : mobileAppDev,
+            name : "Mobile Application Development"
         },
         {
             logo : problemsolving,

@@ -31,6 +31,12 @@ const uiucProjects = [
       description : "Developed AutoInsight AI, an AI-powered car buying assistant, integrating advanced data analysis and LLM-generated insights. Resulted in improved user engagement and reduced decision-making time by 40% for car buyers.",
       content : "Skills : Python, ML, LLMs, Data Analysis, data visualization."
      },
+     {
+      href : "https://github.com/Sabhari-CEG/TikTok-Clone-A-Kotlin-Powered-Social-Media-Engine/tree/master",
+      title : "TikTok Clone : A Kotlin Powered Social Media Engine",
+      description : "A sophisticated reverse-engineered implementation of TikTok's core features, built with modern Android development practices. This project demonstrates advanced Kotlin programming, focusing on smooth vertical content scrolling, efficient media handling, and a robust user interface.",
+      content : "Skills : Kotlin, Mobile App, Android, UI/UX."
+     },
   ]
 
 

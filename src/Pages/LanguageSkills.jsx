@@ -18,6 +18,7 @@ import dart from "../images/dart.png"
 import assembly from "../images/assembly.png"
 import erlang from "../images/erlang.png"
 import node from "../images/node.png"
+import kotlin from "../images/kotlin.jpeg"
 import { Avatar, Card } from 'antd';
 
 
@@ -68,6 +69,10 @@ const LanguageSkills = () => {
         {
             logo : expressjs,
             name : "Express JS"
+        },
+        {
+            logo : kotlin,
+            name : "Kotlin"
         },
         {
             logo : sql,
