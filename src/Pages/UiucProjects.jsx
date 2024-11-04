@@ -34,7 +34,7 @@ const uiucProjects = [
      {
       href : "https://github.com/Sabhari-CEG/TikTok-Clone-A-Kotlin-Powered-Social-Media-Engine/tree/master",
       title : "TikTok Clone : A Kotlin Powered Social Media Engine",
-      description : "A sophisticated reverse-engineered implementation of TikTok's core features, built with modern Android development practices. This project demonstrates advanced Kotlin programming, focusing on smooth vertical content scrolling, efficient media handling, and a robust user interface.",
+      description : "Reverse-engineered TikTok's core features to deliver a smooth, efficient user experience through modern Android practices, advanced Kotlin programming, optimized media handling, and seamless content scrolling.",
       content : "Skills : Kotlin, Mobile App, Android, UI/UX."
      },
   ]
