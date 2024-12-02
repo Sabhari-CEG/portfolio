@@ -37,6 +37,12 @@ const uiucProjects = [
       description : "Reverse-engineered TikTok's core features to deliver a smooth, efficient user experience through modern Android practices, advanced Kotlin programming, optimized media handling, and seamless content scrolling.",
       content : "Skills : Kotlin, Mobile App, Android, UI/UX."
      },
+     {
+      href : "https://github.com/Sabhari-CEG/Real-time-IoT-Sensor-Anomaly-Detection-using-Kafka-Streams-on-GKE-A-Cloud-Native-Implementation",
+      title : "Real-time IoT Sensor Anomaly Detection using Kafka Streams on GKE (A Cloud Native Implementation)",
+      description : "Deployed a cloud-native IoT anomaly detection system on GKE using Kafka clusters, processing 2.3M+ sensor readings with dual implementation approach (traditional, KSQL stream processing), achieving 25x performance optimization by reducing processing time from 6.3 hours to 10-15 mins.",
+      content : "Skills : Kubernetes, Apache Kafka, KSQL, Google Cloud Platform, Shell Scripting."
+     },
   ]
 
 
