@@ -133,7 +133,16 @@ const CertificationSkills = () => {
             date : "Date : Jun 2024",
             description : "Mastered essential career skills in Generative AI through Microsoft and LinkedIn's Career Essentials program, gaining practical insights into cutting-edge AI technologies.",
             certificate : "https://www.linkedin.com/learning/certificates/fbd79dd3ee1a108908e536cc4383c39f6a7c3335690fc4ddb123b1739bf8f13c",
-        }
+        },
+        {
+            thumb : simplilearn,
+            name : "Getting Started with Docker",
+            organization : "Organization : Simplilearn | Skillup",
+            platform : "Platform : Simplilearn",
+            date : "Date : Dec 2024",
+            description : "I had learnt how to write a Dockerfile to define the environment and dependencies for your application. Learnt the difference between an image and container",
+            certificate : "https://www.simplilearn.com/skillup-certificate-landing?token=eyJjb3Vyc2VfaWQiOiIxNzQxIiwiY2VydGlmaWNhdGVfdXJsIjoiaHR0cHM6XC9cL2NlcnRpZmljYXRlcy5zaW1wbGljZG4ubmV0XC9zaGFyZVwvNzY0NzgzNF82NTQ0OTM4MTczMzc2NTE0MTQ5NC5wbmciLCJ1c2VybmFtZSI6IlNhYmhhcmkgUGFyYW1lc3dhcmFuIn0%3D&utm_source=shared-certificate&utm_medium=lms&utm_campaign=shared-certificate-promotion&referrer=https%3A%2F%2Flms.simplilearn.com%2Fcourses%2F4231%2FGetting-Started-with-Docker%2Fcertificate%2Fdownload-skillup&%24web_only=true&_branch_match_id=1313121547613282697&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXL87MLcjJ1EssKNDLyczL1k%2FVd3EqM7ZILItKCkiyrytKTUstKsrMS49PKsovL04tsvUBqkpN8cwDAIXlYXRBAAAA",
+        },
     ]
 
     return (
