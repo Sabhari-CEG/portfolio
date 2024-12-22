@@ -19,6 +19,8 @@ import assembly from "../images/assembly.png"
 import erlang from "../images/erlang.png"
 import node from "../images/node.png"
 import kotlin from "../images/kotlin.jpeg"
+import angular from "../images/angular.png"
+import typescript from "../images/typescript.png"
 import { Avatar, Card } from 'antd';
 
 
@@ -45,6 +47,14 @@ const LanguageSkills = () => {
         {
             logo : reactjs,
             name : "React JS"
+        },
+        {
+            logo : angular,
+            name : "Angular JS"
+        },
+        {
+            logo : typescript,
+            name : "TypeScript"
         },
         {
             logo: java,
