@@ -43,6 +43,24 @@ const uiucProjects = [
       description : "Deployed a cloud-native IoT anomaly detection system on GKE using Kafka clusters, processing 2.3M+ sensor readings with dual implementation approach (traditional, KSQL stream processing), achieving 25x performance optimization by reducing processing time from 6.3 hours to 10-15 mins.",
       content : "Skills : Kubernetes, Apache Kafka, KSQL, Google Cloud Platform, Shell Scripting."
      },
+     {
+      href : "https://github.com/Sabhari-CEG/Spring-boot-training",
+      title : "SpringBoot Training",
+      description : "Developed my first sample spring boot CRUD operations.",
+      content : "Skills : JAVA, SpringBoot, REST APIs."
+     },
+     {
+      href : "https://github.com/Sabhari-CEG/Angular-Training",
+      title : "Angular Training",
+      description : "Developed my first sample Angular project.",
+      content : "Skills : Angular, TypeScript, JavaScript, HTML, CSS."
+     },
+     {
+      href : "https://github.com/Sabhari-CEG/SecureTransfer-Modern-Full-Stack-Money-Transfer-Platform",
+      title : "SecureTransfer-Modern Full-Stack Money Transfer Platform",
+      description : "Engineered a full-stack money transfer platform that processed 100+ secure financial transactions, each under 50ms by implementing Angular for frontend, Spring Boot REST APIs for transaction processing, MySQL for data persistence, and Docker for containerized deployment.",
+      content : "Skills : Java, SpringBoot, REST APIs, Microservices, T-SQL, Object Oriented design, Angular, Typescript, HTML/CSS, Docker."
+     },
   ]
 
 
