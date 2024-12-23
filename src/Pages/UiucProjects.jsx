@@ -58,7 +58,7 @@ const uiucProjects = [
      {
       href : "https://github.com/Sabhari-CEG/SecureTransfer-Modern-Full-Stack-Money-Transfer-Platform",
       title : "SecureTransfer-Modern Full-Stack Money Transfer Platform",
-      description : "Engineered a full-stack money transfer platform that processed 100+ secure financial transactions, each under 50ms by implementing Angular for frontend, Spring Boot REST APIs for transaction processing, MySQL for data persistence, and Docker for containerized deployment.",
+      description : "Engineered a full-stack money transfer platform that processed 100+ secure financial transactions, each under 50ms using Angular for frontend, Spring Boot for transaction processing, MySQL, and Docker for containerized deployment.",
       content : "Skills : Java, SpringBoot, REST APIs, Microservices, T-SQL, Object Oriented design, Angular, Typescript, HTML/CSS, Docker."
      },
   ]
