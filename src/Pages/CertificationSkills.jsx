@@ -143,6 +143,15 @@ const CertificationSkills = () => {
             description : "I had learnt how to write a Dockerfile to define the environment and dependencies for your application. Learnt the difference between an image and container",
             certificate : "https://www.simplilearn.com/skillup-certificate-landing?token=eyJjb3Vyc2VfaWQiOiIxNzQxIiwiY2VydGlmaWNhdGVfdXJsIjoiaHR0cHM6XC9cL2NlcnRpZmljYXRlcy5zaW1wbGljZG4ubmV0XC9zaGFyZVwvNzY0NzgzNF82NTQ0OTM4MTczMzc2NTE0MTQ5NC5wbmciLCJ1c2VybmFtZSI6IlNhYmhhcmkgUGFyYW1lc3dhcmFuIn0%3D&utm_source=shared-certificate&utm_medium=lms&utm_campaign=shared-certificate-promotion&referrer=https%3A%2F%2Flms.simplilearn.com%2Fcourses%2F4231%2FGetting-Started-with-Docker%2Fcertificate%2Fdownload-skillup&%24web_only=true&_branch_match_id=1313121547613282697&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXL87MLcjJ1EssKNDLyczL1k%2FVd3EqM7ZILItKCkiyrytKTUstKsrMS49PKsovL04tsvUBqkpN8cwDAIXlYXRBAAAA",
         },
+        {
+            thumb : simplilearn,
+            name : "Introduction to Kubernetes",
+            organization : "Organization : Simplilearn | Skillup",
+            platform : "Platform : Simplilearn",
+            date : "Date : Jan 2025",
+            description : "I had gained foundational knowledge of Kubernetes architecture, deploying and managing containerized applications, and working with pods, services, and deployments.",
+            certificate : "https://www.simplilearn.com/skillup-certificate-landing?token=eyJjb3Vyc2VfaWQiOiIxNzQyIiwiY2VydGlmaWNhdGVfdXJsIjoiaHR0cHM6XC9cL2NlcnRpZmljYXRlcy5zaW1wbGljZG4ubmV0XC9zaGFyZVwvNzc0NDk4NV82NTQ0OTM4MTczNjExNDQ4ODU0NC5wbmciLCJ1c2VybmFtZSI6IlNhYmhhcmkgUGFyYW1lc3dhcmFuIn0%3D&utm_source=shared-certificate&utm_medium=lms&utm_campaign=shared-certificate-promotion&referrer=https%3A%2F%2Flms.simplilearn.com%2Fcourses%2F4232%2FIntroduction-to-Kubernetes%2Fcertificate%2Fdownload-skillup&%24web_only=true&_branch_match_id=1313121547613282697&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXL87MLcjJ1EssKNDLyczL1k%2FVzws19c028TYPDUiyrytKTUstKsrMS49PKsovL04tsnXOKMrPTQUADulULj8AAAA%3D",
+        },
     ]
 
     return (
