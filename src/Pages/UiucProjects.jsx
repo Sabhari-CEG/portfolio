@@ -61,6 +61,12 @@ const uiucProjects = [
       description : "Engineered a full-stack money transfer platform that processed 100+ secure financial transactions, each under 50ms using Angular for frontend, Spring Boot for transaction processing, MySQL, and Docker for containerized deployment.",
       content : "Skills : Java, SpringBoot, REST APIs, Microservices, T-SQL, Object Oriented design, Angular, Typescript, HTML/CSS, Docker."
      },
+     {
+      href : "https://github.com/Sabhari-CEG/Performance-Analysis-Single-Node-vs-Hadoop-MapReduce-for-Time-Series-Data-Processing",
+      title : "Performance Analysis - Single Node vs Hadoop MapReduce for Time Series Data Processing",
+      description : "Evaluated distributed(1M+4W,1M+2W) vs. single-node processing on GCP(e2-standard-2 [2 CPU, 8GB memory]) for a 1.6M record datasett, finding single-node 37x faster (0.205s) and more memory-efficient (<100MB) for small datasets.",
+      content : "Skills : Java, Hadoop, Distributed Computing, Performance Optimization, Google Cloud Platform, Data Analysis, Memory Management."
+     },
   ]
 
 
