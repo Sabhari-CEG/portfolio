@@ -67,6 +67,18 @@ const uiucProjects = [
       description : "Evaluated distributed(1M+4W,1M+2W) vs. single-node processing on GCP(e2-standard-2 [2 CPU, 8GB memory]) for a 1.6M record datasett, finding single-node 37x faster (0.205s) and more memory-efficient (<100MB) for small datasets.",
       content : "Skills : Java, Hadoop, Distributed Computing, Performance Optimization, Google Cloud Platform, Data Analysis, Memory Management."
      },
+     {
+      href : "https://github.com/Sabhari-CEG/-Building-a-Stock-Analysis-System-with-Buy-Sell-Recommendations",
+      title : "Building a Stock Analysis System with Buy/Sell Recommendations",
+      description : " Designed and implemented a rule-based stock analysis system that processes financial data from 7 APIs, calculates growth rates for key metrics (e.g., revenue, EPS, free cash flow), and generates Buy/Sell recommendations with 99% accuracy during testing.",
+      content : "Skills : Python, Financial Modeling Prep API, Pandas, Weighted Scoring Models."
+     },
+     {
+      href : "https://github.com/Sabhari-CEG/Mendelian-Inheritance-Analysis-and-Trait-Prediction",
+      title : "Mendelian Inheritance Analysis and Trait Prediction",
+      description : "Developed a genomic analysis pipeline to verify parentage and predict traits using 601,802 SNPs. Achieved 99.09% confidence in parentage verification based on Mendelian inheritance rules.",
+      content : "Skills : Python, Pandas, CSV processing, Genomics."
+     },
   ]
 
 
