@@ -79,6 +79,12 @@ const uiucProjects = [
       description : "Developed a genomic analysis pipeline to verify parentage and predict traits using 601,802 SNPs. Achieved 99.09% confidence in parentage verification based on Mendelian inheritance rules.",
       content : "Skills : Python, Pandas, CSV processing, Genomics."
      },
+     {
+      href : "https://github.com/Sabhari-CEG/Real-Time-Bottleneck-Detection-and-Diagnostic-Insights-Platform",
+      title : "Real-Time Logs Bottleneck Detection and Diagnostic Insights Platform",
+      description : "Achieved real-time analysis of operational bottlenecks and diagnostic insights by processing 10M+ logs with 95% accuracy, reducing error identification time by 50% through Google Cloud Pub/Sub, Python-based processing, and socket API integration.",
+      content : "Skills : Python, Cloud computing, Realtime Log analysis, Socket programming."
+     },
   ]
 
 
