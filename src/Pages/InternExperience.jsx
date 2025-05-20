@@ -2,6 +2,7 @@ import './Experience.css'
 import decntmass from "../images/dcentmass.jpeg"
 import { Avatar } from 'antd';
 import { useInView } from 'react-intersection-observer';
+import uiuc from "../images/uiuc.png";
 
 const InternExperience = () => {
     const { ref, inView } = useInView({
@@ -10,6 +11,30 @@ const InternExperience = () => {
     });
 
     const interExperience = [
+        {
+            logo : uiuc,
+            name : "Gies College of Business - University of Illinois Urbana-Champaign",
+            position : "Graduate Research Assistant",
+            description : "Official buisness school of UIUC",
+            link : "https://www.linkedin.com/school/giesbusiness/posts/?feedView=all",
+            duration : "Feb 2025 - May 2025",
+            responsibilities : [
+                "Slashed stock-analysis effort by 70% by building a Python engine ingesting 7 APIs with weighted scoring, doubling daily trade signals to 200+.",
+                "Achieved 98% entity-matching accuracy by fine tuning BERT on 10K+ variants and automating clustering, halving ingestion latency by 50%."
+            ]
+        },
+        {
+            logo : uiuc,
+            name : "Siebel School of Computing and Data Science - University of Illinois Urbana-Champaign",
+            position : "Course Assistant - CS222 Software Design Lab",
+            description : "Official computer science school of UIUC",
+            link : "https://www.linkedin.com/school/illinoissiebelschool/posts/?feedView=all",
+            duration : "Jan 2025 - May 2025",
+            responsibilities : [
+                "Mentored 8 undergraduates 10+ hours/week in Agile SDLC and design patterns, driving a 95% on time project delivery and cutting post release defects by 30%.",
+                "Architected a modular codebase and led peer reviews for 4 developers, boosting maintainability by 40% and accelerating bug fix turnaround by 25%."
+            ]
+        },
         {
             logo : decntmass,
             name : "DCENTMASS, Bangalore, Karnataka, India",
