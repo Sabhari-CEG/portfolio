@@ -2,7 +2,8 @@ import './Experience.css'
 import decntmass from "../images/dcentmass.jpeg"
 import { Avatar } from 'antd';
 import { useInView } from 'react-intersection-observer';
-import uiuc from "../images/uiuc.png";
+import uiuc from "../images/uiuc.jpg";
+import epe from "../images/epe.png"
 
 const InternExperience = () => {
     const { ref, inView } = useInView({
@@ -11,6 +12,16 @@ const InternExperience = () => {
     });
 
     const interExperience = [
+        {
+            logo : epe,
+            name : "Electric Power Engineers",
+            position : "Software Development Internship",
+            description : "EPE is an energy consulting firm that provides expertise in power system planning, engineering, and grid modernization.",
+            link : "https://epeconsulting.com/",
+            duration : "May 2025 - Jul 2025",
+            responsibilities : [
+            ]
+        },
         {
             logo : uiuc,
             name : "Gies College of Business - University of Illinois Urbana-Champaign",

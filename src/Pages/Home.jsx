@@ -19,7 +19,7 @@ const Home = () => {
     const items = [ 
     "Full Stack Developer",
     "Graduate CS at UIUC",
-    "Seeking internship and co-op"
+    "Seeking SDE roles"
     ];
     const typedIndex = useTypingEffect(items);
     

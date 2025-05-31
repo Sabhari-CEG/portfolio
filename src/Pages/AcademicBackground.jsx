@@ -1,6 +1,6 @@
 import './AcademicBackground.css'
 import ceg from "../images/CEG.png"
-import uiuc from "../images/uiuc.png"
+import uiuc from "../images/uiuc.jpg"
 import { Avatar } from 'antd';
 import { useInView } from 'react-intersection-observer';
 import useTypingEffect from './TypingEffect';
@@ -22,9 +22,9 @@ const AcademicBackground = () => {
             name : "University of Illinois Urbana - Champaign (Grainger College of Engineering), Urbana, Illinois",
             degree : "Master of Computer Science",
             field : "Computer Science",
-            duration : "Fall 2024 - Fall 2025",
-            cgpa : null,
-            courses : ["Database Systems", "Advanced Data Management", "Artificial Intelligence"]
+            duration : "Fall 2024 - Spring 2026",
+            cgpa : "CGPA : 3.88 / 4",
+            courses : ["Database Systems", "Advanced Data Management", "Artificial Intelligence", "User-Centered Machine Learning", "Computer Security II", "Advanced Information Retrival", "CS Colloquium"]
         },
         {
             logo : ceg,
