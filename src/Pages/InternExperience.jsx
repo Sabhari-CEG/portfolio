@@ -20,6 +20,8 @@ const InternExperience = () => {
             link : "https://epeconsulting.com/",
             duration : "May 2025 - Jul 2025",
             responsibilities : [
+                "Delivered version 2 of the Insights app by refactoring 8 components and upgrading 15+ frontend components, driving a 30% performance boost through full-stack development with FastAPI, React, Vue, AWS, and Postgres.",
+                "Engineered and deployed a next-gen authentication system with KeyCloak and OpenFGA, reducing login incidents by 40% and achieving enterprise grade security and scalability by replacing legacy Esri+Firebase infrastructure."
             ]
         },
         {
